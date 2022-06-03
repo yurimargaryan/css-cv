@@ -1,0 +1,227 @@
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+
+/** {
+   padding: 0;
+}*/
+
+body {
+   background-color: black;
+   color: white;
+   font-size: 16px;
+   font-weight: normal;
+   font-family: 'Kdam Thmor Pro', sans-serif;
+}
+
+a {
+   color: white;
+   text-decoration: none;
+}
+a:hover {
+   opacity: 0.7;
+}
+
+a:active{
+   opacity: 0.4;
+}
+
+h1 {
+   color: #f1f1f1;
+}
+
+.avatar {
+   width: 200px;
+   border-radius: 50%;
+   box-shadow: 5px 5px 15px white;
+}
+
+.info{
+   margin-bottom: 20px;
+   display: flex;
+}
+
+@media (max-width: 700px) {
+   .info{
+      text-align: center;
+      display: block;
+   }
+}
+
+.info-text {
+   margin-left: 50px;
+}
+
+.info-text h4 {
+   margin-bottom: 10px;
+}
+
+.info p {
+   color: gray;
+   margin: 0;
+   font-style: italic;
+   text-decoration: underline;
+   /*text-transform: uppercase;*/
+   /*letter-spacing: 5px;*/
+   /*word-spacing: 5px;*/
+
+}
+
+.container {
+   max-width: 750px;
+   margin: auto;
+   padding-top: 30px;
+}
+
+/*Box mmodel
+.social {
+   background-color: orange;
+   padding: 15px;
+   border: 5px solid rebeccapurple;
+   margin: 15px;
+   border-bottom-style: dashed;
+   border-top-width: 15px;
+   border-right-color: blue;
+}*/
+
+/*.box-model > div {
+   float: left;
+   background: fuchsia;
+   height: 150px;
+   width: 25%;
+   border: 5px solid yellow;
+   box-sizing: border-box;
+}*/
+
+.bg-yellow {
+   background: #fbfb7e;
+}
+
+.bg-green {
+   background: #9fff9f;
+}
+
+.bg-red {
+   background: #ff8686;
+}
+
+.card {
+   padding: 15px 20px;
+   margin-bottom: 20px;
+   border-radius: 20px;
+}
+
+.card h2 {
+   margin-bottom: 10px;
+}
+
+.hobbi {
+   padding: 0 30px;
+   /*list-style: none;*/
+}
+
+.hobbi li {
+   color: #9fff9f;
+   margin-bottom: 10px;
+}
+
+.school-list {
+   width: 100%;
+}
+
+.school-list td{
+   padding-bottom: 10px;
+}
+
+.school-list td:nth-child(2),
+.school-list td:nth-child(3){
+   color: black;
+}
+
+/*.school-list tr:nth-child(odd){
+   background-color: aquamarine;
+}*/
+
+.work {
+   list-style: none;
+   padding: 0;
+}
+
+.work a:hover {
+   opacity: 0.8;
+}
+
+.work li {
+   margin-bottom: 10px;
+   padding-bottom: 5px;
+   border-bottom: 1px solid black;
+}
+
+.contact h2{
+   text-align: center;
+}
+
+.row {
+   display: flex;
+   margin-bottom: 20px;
+}
+
+.row > .form-group{
+   width: 50%;
+}
+
+.row > .form-group:first-child {
+   margin-right: 20px;
+}
+
+.form-group{
+   margin-bottom: 10px;
+}
+
+.form-group label{
+   display: block;
+   font-size: 14px;
+   color: gray;
+}
+
+.form-group input,
+.form-group textarea{
+   width: 100%;
+   box-sizing: border-box;
+   border: none;
+   background: transparent;
+   border-bottom: 1px solid red;
+   color: white;
+   padding: 15px 0 10px;
+   outline: none;
+   font-family: inherit;
+}
+
+.btn{
+   background: brown;
+   padding: 5px 20px;
+   font-family: inherit;
+   cursor: pointer;
+}
+
+.btn:hover {
+   opacity: 0.7;
+}
+
+
+/* Position */
+
+/*.position {
+   position: relative;
+   border: 5px solid white;
+   margin-top: 40px;
+   padding: 20px;
+   height: 400px;
+}
+
+.box {
+   position: fixed   ;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 50px;
+   background-color: aquamarine;
+}*/
